@@ -1,0 +1,93 @@
+/* Basic Body Reset & Font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light grey background for the page */
+    color: #333; /* Default text color */
+}
+
+/* --- Class Selectors --- */
+
+/* Styles for the main page container */
+.container {
+    width: 90%; /* Or a fixed width like 960px */
+    max-width: 1200px; /* Ensure it doesn't get too wide on large screens */
+    margin: 20px auto; /* Center the container on the page with some top/bottom margin */
+    background-color: #ffffff; /* White background for the content area */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a bit of depth */
+    border-radius: 8px; /* Slightly rounded corners */
+    overflow: hidden; /* Ensures floats within are contained if any were used */
+}
+
+/* Styles for the main content area (between header and footer) */
+.content {
+    padding: 20px;
+}
+
+/* Styles for individual sections within the content */
+.section {
+    background-color: #f9f9f9; /* Slightly different background for sections */
+    border: 1px solid #e0e0e0; /* Light border for sections */
+    padding: 15px;
+    margin-bottom: 15px; /* Space between sections */
+    border-radius: 5px; /* Rounded corners for sections */
+}
+
+.section:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last section */
+}
+
+/* --- ID Selectors for Unique Page Elements --- */
+
+/* Styles for the main header */                                                    <!----CNCQ14 Stylesheet codes---->
+#main-header {
+    background-color: #333; /* Dark background for the header */
+    color: #ffffff; /* White text for the header */
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em; /* Larger font size for header text */
+    border-bottom: 3px solid #555;
+}
+
+/* Styles for the main footer */
+#main-footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #ffffff; /* White text for the footer */
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em; /* Smaller font size for footer text */
+    border-top: 3px solid #555;
+    margin-top: 20px; /* Space above the footer */
+}
+
+body {
+    color: black;
+}
+#myText {
+    color: red;
+}
+
+/* write code for all the external styles with the use of id, class and type selector here */
+
+#mainHeading {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px cyan;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.backgroundExample {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.textSection {
+    font-family: "Courier New", Courier, monospace;
+}
+.textStyle {
+    font-family: "Times New Roman", serif;
+    font-weight: bolder;
+    text-align: center;
+}

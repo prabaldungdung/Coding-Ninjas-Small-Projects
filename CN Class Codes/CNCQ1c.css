@@ -1,0 +1,48 @@
+.grid-container {
+  display: grid;
+
+  /* Columns: 1st - 200px, 2nd - auto, 3rd - remaining space */
+  grid-template-columns: 200px auto 1fr;
+
+  /* Rows: 1st - 100px fixed, 2nd - auto */
+  grid-auto-rows: 100px auto;
+
+  /* Gaps between columns and rows */
+  grid-column-gap: 10px;
+  row-gap: 10px;
+
+  padding: 10px;
+}
+
+.header {
+  background-color: lightgray;
+  border: 1px solid black;
+
+  /* Start at column 1 and span 3 columns */
+  grid-column: 1 / span 3;
+
+  /* Start at row 1 */
+  grid-row: 1;
+}
+
+.left-section {
+  background-color: lightblue;
+  border: 1px solid black;
+
+  /* Start at column 1, span 2 columns */
+  grid-column: 1 / span 2;
+
+  /* Start at row 2, span 4 rows */
+  grid-row: 2 / span 4;
+}
+
+.right-section {
+  background-color: lightgreen;
+  border: 1px solid black;
+
+  /* Start at column 3 */
+  grid-column: 3;
+
+  /* Start at row 2, span 2 rows */
+  grid-row: 2 / span 2;
+}

@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+}
+
+label {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1324e4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+}
+
+.contact-info {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+}
+
+
+.contact-info ul {
+  list-style-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000002643_1709059251_arrow-right.png");
+  padding: 0;
+}
+
+.contact-info li {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  margin: 0 0 10px 20px;
+  border-radius: 5px;
+  text-align: left;
+}

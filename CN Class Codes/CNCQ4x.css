@@ -1,0 +1,23 @@
+.container {
+  background-color: #f0f0f0;
+
+  /* ? GRID LAYOUT */
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: 70px;
+  gap: 20px;
+
+  /* ? ALIGNMENT */
+  justify-content: end;
+  align-items: center;
+}
+
+.item {
+  background-color: rgb(93, 204, 93);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px dotted black;
+
+  /* Optional: if you want to center text */
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: linear-gradient(to left top, blue, red);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay {
+  position: relative;
+  top: 130px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.overlay:hover {
+  filter: brightness(80%);
+}
+
+.overlay img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  text-align: center;
+  color: #fff;
+}
+
+.text-overlay h2,
+.text-overlay p {
+  margin: 0;
+  text-align: center;
+}

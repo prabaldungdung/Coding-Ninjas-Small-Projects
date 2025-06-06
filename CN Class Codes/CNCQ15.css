@@ -1,0 +1,27 @@
+/* Test Case 1: Font size of main heading = 4% of viewport width */
+#mainHeading {
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Test Case 2: Font size of paragraph = 1.5 times current font size */
+.backgroundExample {
+  font-size: 1.5em;
+  text-align: justify;
+  margin: 0 10%;
+}
+
+/* Test Case 3 + 4: Image width = 40% of container, height = 22 rem */
+img {
+  width: 40%;
+  height: 22rem;
+  margin: 10px;
+}
+
+/* Test Case 5: Font size of final line = 30 pixels */
+.textStyle {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}

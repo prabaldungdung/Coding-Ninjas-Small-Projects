@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Form</title>
+    </head>
+<body>
+
+    <h1>Forms in HTML</h1>
+
+    <form action="#" method="POST">
+        
+        <p>
+            <label for="name">Enter your Name: Placeholder="Please enter your name</label><br>
+            <input type="text" id="name" name="name" Placeholder="Please enter your name" size="30">
+        </p>
+
+        <p>
+            <label for="email">Enter your Email ID:</label><br>
+            <input type="email" id="email" name="email" Placeholder="Please enter your email" size="30">
+        </p>
+
+        <p>
+            <label for="password">Enter your Password:</label><br>
+            <input type="password" id="password" name="password" Placeholder="Please enter your password" size="30">
+        </p>
+
+        <p>
+            Gender:<br>
+            <label for="writeGender"Write your Gender></label>
+            <input type="radio" id="writeGender" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+
+        <p>
+            Hobbies:<br>
+            <input type="checkbox" id="cricket" name="hobbies" value="cricket">
+            <label for="cricket">Do you love Cricket ?</label><br>
+            <input type="checkbox" id="swimming" name="hobbies" value="swimming">
+            <label for="swimming">Do you like Swimming ?</label><br>
+            <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+            <label for="cooking">Are you a fan of Cooking ?</label><br>
+        </p>
+
+        <p>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="india" selected>India</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="feedback">Please share your feedback with us :</label><br>
+            <textarea id="feedback" name="feedback" Placeholder="Please share your feedback with us:)"rows="4" cols="30"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+  grid-template-areas:
+    "section1 section1 section2"
+    "section3 section3 section3"
+    "section4 section4 section4";
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* ? Assigning correct grid-areas */
+.section1 {
+  background-color: #1abc9c;
+  grid-area: section1;
+}
+
+.section2 {
+  background-color: #3498db;
+  grid-area: section2;
+}
+
+.section3 {
+  background-color: #9b59b6;
+  grid-area: section3;
+}
+
+.section4 {
+  background-color: #e74c3c;
+  grid-area: section4;
+}

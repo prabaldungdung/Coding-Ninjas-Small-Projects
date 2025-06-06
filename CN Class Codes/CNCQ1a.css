@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  /* ? Grid layout with 4 columns of 180px */
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  gap: 20px;
+  place-content: center; /* ? Align items center both horizontally and vertically */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.portfolio {
+  padding: 20px 10px;
+}
+
+.gallery {
+  /* ? Grid layout for gallery */
+  display: grid;
+  grid-template-columns: repeat(4, 280px);  /* 4 columns of 280px */
+  grid-auto-rows: 270px;                    /* row height 270px */
+  gap: 30px;
+  justify-content: center;                  /* ? Center items horizontally */
+  place-items: center;                      /* ? Center items vertically and horizontally */
+}
+
+.gallery-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ? Image properties */
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}

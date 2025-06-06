@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* you can increase or decrease based on visual needs */
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}

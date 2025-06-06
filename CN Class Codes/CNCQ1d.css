@@ -1,0 +1,76 @@
+body {
+    background-color: #e8f9fd;
+    margin: 100px;
+    padding: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff4f4;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: grid;                   /* Added display: grid */
+    grid-template-columns: 1fr 2fr 1fr; /* Added grid-template-columns */
+    justify-content: space-between;   /* Added justify-content */
+    align-items: center;            /* Added align-items */
+    height: 70px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0; /* Prevent default margin from affecting alignment */
+}
+
+.container {
+    padding: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; /* Adjusted margin-top to provide space for fixed header */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: grid;                         /* Added display grid */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Added grid-template-columns */
+    grid-auto-rows: minmax(400px, auto);    /* Added grid-auto-rows */
+    gap: 20px;                             /* Added gap for spacing between items */
+}
+
+.grid-item {
+    padding: 20px;  /* Added padding for content spacing */
+    text-align: center;
+}
+
+.image-card,
+.content-card {
+    width: 100%;
+}
+
+/* Image properties(Learner can modify the properties as per their preference) */
+img {
+    border-radius: 50%;
+    width: 70%;
+    height: 305px;
+    object-fit: cover;
+    display: block; /* Prevents image from affecting layout flow */
+    margin: 0 auto; /* Centers image horizontally within the container */
+}
+
+p {
+    font-style: italic;
+}

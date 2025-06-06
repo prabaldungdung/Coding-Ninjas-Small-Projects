@@ -1,0 +1,66 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section Styling */
+section {
+    padding: 24px;
+}
+
+/* Header Styling */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+/* Form Styling */
+.contact-form {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Label Styling */
+label {
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+    display: block;
+    font-weight: 500; /* Ensures label text is normal thickness */
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+button {
+    background-color: #1324e4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0e1bb3;
+}

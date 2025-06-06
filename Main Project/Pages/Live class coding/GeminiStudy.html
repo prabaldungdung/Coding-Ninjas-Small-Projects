@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Sample Page</title>
+    <style>
+        /* Thodi si basic styling taki sections alag dikhein */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #f0f0f0; padding: 20px; text-align: center; }
+        nav ul { list-style-type: none; padding: 0; text-align: center; }
+        nav ul li { display: inline; margin-right: 20px; }
+        nav ul li a { text-decoration: none; color: blue; }
+        section { padding: 20px; }
+        article { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; }
+        aside { background-color: #f9f9f9; padding: 15px; width: 30%; float: right; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%;}
+        .highlight { color: green; font-weight: bold; }
+        #main-area { width: 65%; float: left; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meri Website Ka Header</h1>
+        <p>Website ki tagline <span class="highlight">yahan</span> hai!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="main-area">
+        <section id="introduction">
+            <h2>परिचय (Introduction)</h2>
+            <p>यह हमारी वेबसाइट का मुख्य परिचय सेक्शन है। यहाँ हम अपने काम के बारे में बताते हैं।</p>
+        </section>
+
+        <section id="blog-posts">
+            <h2>Blog Posts</h2>
+            <article>
+                <h3>Pehla Blog Post</h3>
+                <p>यह मेरे पहले ब्लॉग पोस्ट का कंटेंट है। इसमें <code>HTML</code> और <code>CSS</code> की बातें हैं।</p>
+                <p>Ek aur paragraph <span style="color: red;">sirf is post k liye</span>.</p>
+            </article>
+            <article>
+                <h3>Doosra Blog Post</h3>
+                <p>यह मेरे दूसरे ब्लॉग पोस्ट का कंटेंट है। यह <code>JavaScript</code> के बारे में है।</p>
+            </article>
+        </section>
+    </div>
+
+    <aside>
+        <h3>Sidebar</h3>
+        <p>Yahan kuch extra جانکاری ya links ho sakte hain.</p>
+    </aside>
+
+    <footer style="clear: both;"> <p>&copy; 2025 Meri Website. Sabhi adhikar surakshit.</p>
+    </footer>
+
+</body>
+</html>
